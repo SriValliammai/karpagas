@@ -146,7 +146,6 @@ class bill_details{
                 }
                 elseif($billno_query==0){
                     $bill_no = 1;
-                    // echo $bill_no;
                 }
                 else{
                     die('ERROR.'.mysqli_error());
